@@ -1,8 +1,8 @@
 <?php
 /*INFOS :
-Il est absolument nécessaire de :
+Utiliser ce modèle pour créer votre propre modèle de class d'objets à stocker dans la base de données en JSON, sachant qu'il sera absolument nécessaire de :
 - implémenter la classe avec JsonSerializable sinon les attributs privés ne pourront être exportés en JSON
-- avoir une fonction getClef pour pouvoir ensuite s'en servir dans le fichier JSON
+- avoir une fonction getClef pour pouvoir ensuite s'en servir dans le fichier JSON (ou adapter en fonction)
 */
 
 class Objet implements JsonSerializable {
